@@ -36,12 +36,6 @@ public class Radio {
     }
 
 
-
-
-
-
-
-
     public int getCurrentStationNumber() {
         return currentStationNumber;
     }
@@ -62,13 +56,13 @@ public class Radio {
 
     public void setCurrentVolume(int currentVolume) {
         if (currentVolume <= 0) {
-            currentVolume =0;
+            currentVolume = 0;
         }
         if (currentVolume >= 100) {
-            currentVolume=100;
+            currentVolume = 100;
         }
 
-        this.currentVolume =currentVolume;
-}
+        this.currentVolume = currentVolume;
+    }
 }
 
